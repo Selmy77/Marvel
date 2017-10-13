@@ -1,0 +1,145 @@
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="http://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/sticky-footer-navbar.css">
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+
+
+<title>Marvel</title>
+
+
+<div class="container">
+	<h1 class="text-center">Marvel</h1>
+	<p class="lead text-center" id="message"></p>
+
+	<div id="marvel-container">
+		
+	</div>
+</div>
+
+
+
+<footer class="footer">
+      <div class="container">
+        <span class="text-muted" id="footer"></span>
+      </div>
+    </footer>
+
+<script type="text/javascript" src="js/marvel.js"></script>-->
+
+
+<head>
+  	<title>Marvel</title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+
+  	<link rel="stylesheet" type="text/css" href="css/custom.css">
+  	<link rel="stylesheet" type="text/css" href="http://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/sticky-footer-navbar.css">
+
+  	
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   	
+  
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div> 
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav collapse navbar-collapse">  
+        <li class="nav-item">
+        	<form class="form-inline navbar-form">
+        		<div class="input-group">
+        			<input id="hero" class="form-control" type="text" placeholder="Search">
+        			<div class="input-group-btn">
+        				<button class="btn btn-info" type="submit" id="submit">
+        					<i class="glyphicon glyphicon-search"></i>
+        				</button>        				
+        			</div>
+        		</div>        		
+        	</form>
+        </li>
+      </ul>      
+    </div>
+  </div>
+
+</nav> 
+
+
+<div class="bs-docs-example container-fluid text-center">
+
+    <p class="well demo content1">
+		<div class="container-fluid text-center">    
+			<div class="row content">
+			    <div class="col-sm-2 sidenav">
+
+
+			    </div>
+				<div class="col-sm-8 text-left"> 
+					<div class="container">
+						<h1 class="text-center">Marvel</h1>
+						<p class="lead text-center" id="message"></p>			
+						<div id="marvel-container">
+								
+						</div>
+						</div>
+				</div>
+				<div class="col-sm-2 sidenav">
+				    <h1 class="text-center">My Favourites</h1>
+				    <div class="well" id="comic">
+				        	
+				    </div>
+				</div>
+			</div>
+		</div>
+     </p>     
+
+     <p class="demo demo1">
+		<ul class="pagination bootpag">
+			<li data-lp="1" class="prev disabled">
+				<a href="javascript:void(0);"><img src="icons/btn_arrow_left.png" class="img-fluid"></a>
+			</li>
+			<li data-lp="1" class="active">
+				<a href="javascript:void(0);">1</a>
+			</li>
+			<li data-lp="2">
+				<a href="javascript:void(0);">2</a>
+			</li>
+			<li data-lp="3"><a href="javascript:void(0);">3</a>
+			</li>
+			<li data-lp="4"><a href="javascript:void(0);">4</a>
+			</li>
+			<li data-lp="5"><a href="javascript:void(0);">5</a>
+			</li>
+			<li data-lp="2" class="next"><a href="javascript:void(0);"><img src="icons/btn_arrow_right.png" class="img-fluid"></a>
+			</li>
+		</ul>
+	</p>    
+</div>
+
+<footer class="footer">
+      <div class="container">
+        <span class="text-muted" id="footer"></span>
+      </div>
+</footer>
+
+</body>
+
+<script type="text/javascript" src="js/marvel.js"></script>
+<script type="text/javascript" src="js/search.js"></script>
+<script type="text/javascript" src="js/favourites.js"></script>
+
+<script type="text/javascript" src="js/jquery.bootpag.js"></script>
+
