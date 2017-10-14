@@ -64,7 +64,7 @@
         		<div class="input-group">
         			<input id="hero" class="form-control" type="text" placeholder="Search">
         			<div class="input-group-btn">
-        				<button class="btn btn-info" type="submit" id="submit">
+        				<button class="btn btn-info" type="submit" id="submit" onclick="search.showDetails()">
         					<i class="glyphicon glyphicon-search"></i>
         				</button>        				
         			</div>
@@ -87,26 +87,32 @@
 
 
 			    </div>
+
 				<div class="col-sm-8 text-left"> 
 					<div class="container">
 						<h1 class="text-center">Marvel</h1>
-						<p class="lead text-center" id="message"></p>			
+						<p class="lead text-center" id="message"></p>	
+
+						
+						
 						<div id="marvel-container">
 								
 						</div>
 						</div>
 				</div>
+
 				<div class="col-sm-2 sidenav">
 				    <h1 class="text-center">My Favourites</h1>
-				    <div class="well" id="comic">
+				    <div id="comic">
 				        	
 				    </div>
 				</div>
+
 			</div>
 		</div>
      </p>     
 
-     <p class="demo demo1">
+     <!--<p class="demo demo1">
 		<ul class="pagination bootpag">
 			<li data-lp="1" class="prev disabled">
 				<a href="javascript:void(0);"><img src="icons/btn_arrow_left.png" class="img-fluid"></a>
@@ -126,14 +132,19 @@
 			<li data-lp="2" class="next"><a href="javascript:void(0);"><img src="icons/btn_arrow_right.png" class="img-fluid"></a>
 			</li>
 		</ul>
-	</p>    
+	</p>-->    
+
+	
+
+	
 </div>
 
-<footer class="footer">
+	<footer class="footer">
       <div class="container">
         <span class="text-muted" id="footer"></span>
       </div>
-</footer>
+	</footer>
+
 
 </body>
 
@@ -141,5 +152,7 @@
 <script type="text/javascript" src="js/search.js"></script>
 <script type="text/javascript" src="js/favourites.js"></script>
 
-<script type="text/javascript" src="js/jquery.bootpag.js"></script>
+
+
+
 

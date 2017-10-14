@@ -24,9 +24,9 @@ var marvel = {
 					//console.log(element.name);
 
 					string += "<div class = 'col-xs-9 col-md-6'>";
-					string += "	<a href='"+ element.urls[0].url+"' target='_blank'>";
+					string += "	<a href='"+ element.urls[0].url+"' target='_blank'>"; //abre la url del heroe en una nueva pestaña
 					string += "		<div class = 'col-xs-3 col-md-6'>";
-					string += "			<img class='character-image' src='"+ element.thumbnail.path +"/standard_xlarge."+ element.thumbnail.extension+"'/>";
+					string += "			<img class='character-image img-responsive' src='"+ element.thumbnail.path +"/standard_xlarge."+ element.thumbnail.extension+"'/>";
 					string += "		</div>";
 					string += "	</a>";					
 					string += "	<h3>" + element.name + "</h3>";					
@@ -50,4 +50,5 @@ var marvel = {
 
 };
 marvel.render();
+
 
